@@ -1,0 +1,14 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Client",
+            "port": 9001,
+            "url": "http://localhost:3000",
+            "webRoot": "${workspaceFolder}/frontend/",
+            "sourceMaps": true
+        }
+    ]
+}
